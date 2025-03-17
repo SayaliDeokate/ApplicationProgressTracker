@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "sqlite1": {
+      "ignored": "true",
+      "type": "sqlite"
+    },
+    "mssql1": {
+      "ignored": "true",
+      "type": "mssql",
+      "connectionId": "ConnectionStrings:ApplicationProgressTrackerDB"
+    },
+    "mssql3": {
+      "secretStore": "LocalSecretsFile",
+      "resourceId": null,
+      "type": "mssql.onprem",
+      "connectionId": "ConnectionStrings:DatabaseConnection"
+    }
+  }
+}

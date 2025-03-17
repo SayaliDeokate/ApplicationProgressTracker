@@ -1,0 +1,83 @@
+﻿code {
+    color: #E01A76;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+input:required:invalid, select:required:invalid, textarea:required:invalid {
+    border-left: 3px solid red !important;
+}
+
+.required-radio {
+    border-left: 3px solid red;
+    padding-left: 5px;
+}
+
+.table-header .ag-header-cell-text {
+    text-align: center;
+}
+
+.dataTable tbody tr, .dataTable th {
+    cursor: pointer;
+}
+
+.text-centered {
+    text-align: center;
+}
+
+.table-child thead {
+    background: #85A3BF;
+    color: white;
+}
+
+.table-child.table {
+    border-collapse: separate;
+    border-radius: 5px;
+    padding: 1px;
+    border: double;
+    border-color: #dee2e6;
+}
+
+.table-child.table thead, th {
+    border-radius: 5px;
+}
+
+.hoverable:hover {
+    background-color: #e9ecef;
+    transition: background-color .5s;
+}
+
+.pagination .active a {
+    outline: solid 2px #377bb5;
+    outline-offset: -2px;
+}
+
+.App {
+    text-align: center;
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.card {
+    outline: solid 2px #377bb5;
+    outline-offset: -2px;
+    padding-left: 5px;
+    margin: auto; /* Centers horizontally */
+}
+.centered-alert {
+    border: 2px solid black;
+    width: 80%;
+    margin: auto; /* Centers horizontally */
+    text-align: center;
+}
